@@ -3,7 +3,7 @@ Program that hooks malloc/free and dumps memory contents to a file when the memo
 
 To test it you need to have your shared object loaded before the real malloc/free:
  
-   LD_PRELOAD=/path/to/sneakymalloc.so /bin/ls
+   LD_PRELOAD=/path/to/sneakymalloc.so 
    
    So, for example, in the directory with the make file and src file run the following commands:
       
